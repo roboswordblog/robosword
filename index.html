@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <title>Robosword Codes</title>
+   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+   <style>
+     body {
+       background: #1c1c1c;
+       font-family: 'Open Sans', sans-serif;
+       margin: 0;
+       padding: 0;
+     }
+
+
+     .Navbar {
+       width: 100%;
+       height: 80px;
+       background: linear-gradient(90deg, #111111, #1f1f1f);
+       display: flex;
+       align-items: center;
+       padding-left: 25px;
+       box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+       border-bottom: 2px solid #FFAB40;
+
+     }
+     .navbuttons{
+       margin-left: auto;
+     margin-right:50px;
+     }
+     .Navbar img {
+       border-radius: 50%;
+       width: 60px;
+       height: 60px;
+       margin-right: 15px;
+     }
+     .Navbar{
+         color: white;
+     }
+     .Navbar h1 {
+       color: #FFAB40;
+       font-size: 28px;
+       font-weight: 700;
+       letter-spacing: 2px;
+       font-family: 'Orbitron', 'Open Sans', sans-serif;
+       margin: 0;
+     }
+     .Navbar button {
+ background: linear-gradient(90deg, #222222, #111111);
+ color: #FFAB40;
+  padding: 10px 20px;
+ border: 1px solid #444;
+ border-radius: 25px;
+ font-weight: 600;
+ text-transform: uppercase;
+ font-size: 14px;
+ letter-spacing: 0.5px;
+ cursor: pointer;
+ transition: all 0.3s ease;
+ box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+ }
+.Navbar a{
+ text-decoration: none;
+ color: #FFAB40;
+}
+
+
+.Navbar button:hover {
+ background: linear-gradient(90deg, #333333, #222222);
+ border-color: #FFAB40;
+
+
+ transform: translateY(-1px);
+}
+
+
+     .newpost {
+       width: 500px;
+       min-height: 200px;
+       background-color: #333333;
+       margin: 20px auto;
+       border-radius: 36px;
+       padding: 20px;
+       overflow: auto;
+       transition: 0.3s ease;
+     }
+
+
+     .newpost:hover {
+       transform: translateY(-5px);
+       box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+     }
+
+
+     .postTitle {
+       color: #FFAB40;
+       font-size: 35px;
+       margin-bottom: 15px;
+     }
+
+
+     .postText p {
+       color: #E0E0E0;
+       margin: 10px 0;
+       line-height: 1.6;
+     }
+
+
+     .codeBox {
+       overflow: auto;
+       width: 90%;
+       min-height: 80px;
+       padding: 15px;
+       margin: 20px auto 0 auto;
+       font-family: 'Cascadia Mono', monospace;
+       background-color: #0D0D0D;
+       color: #00FF00;
+
+       transition: 0.3s ease;
+     }
+
+
+
+
+
+     .code p {
+       margin: 0;
+       padding: 0;
+     }
+   </style>
+ </head>
+ <body>
+   <div class="Navbar">
+     <img src="profilePic.png" alt="Profile Pic">
+     <h1>Robosword Codes</h1>
+     <div class="navbuttons">
+       <a href="projects.html" class="navbtn">posts</a>
+  <a href="/index.html" class="navbtn">projects</a>
+   </div>
+   </div>
+    <div class="newpost">
+        <h1 class="postTitle">Django vs Flask</h1>
+        <div class="postText">
+            <p>Django and flask are two different libraries made for web development backend. Django comes with everything in it, but is much much more complecated to set up. Flask is really easy to set up, but it doesn't come with everything set up. If you are doing a miniproject or a hackathon, you should choose flask. If you are going to release something into the real world, you should do django. </p>
+            <p>Another thing to consider is routing. In flask, you can route using this</p>
+            <div class="codeBox">
+                <div class="code">
+                    @app.route("/action", methods=["Get", "Post"])
+                </div>
+            </div>
+            <P>In django, you have to create a file specifically for routing, and link it to your view files. This makes it inefficient for small projects and hackathons, because it requires too much time. Setting up is also pretty hard in django, and setting up static files is really easy in flask unlike in django</P>
+        </div>
+    </div>
+   <div class="newpost">
+     <h1 class="postTitle">Introduction</h1>
+     <div class="postText">
+       <p>Hi! This is my first post. Let's go over some of the basics of how this blog will be layed out. This is the text area. This is where the content of the posts will be.</p>
+     </div>
+     <div class="codeBox">
+       <div class="code">
+         <p># This is the code area.</p>
+         <p># This is where code will be put.</p>
+       </div>
+     </div>
+     <div class="postText">
+     <p>The text in orange are titles. The post section is where you can see my blog and all my posts, and the projects section is where you can see some of my projects. Some topics which I go over include new projects that I do, new tools that come out, comparing frameworks, making games, and more. Hope that yall will enjoy this as much as I will.</p>
+     </div>
+   </div>
+ </body>
+</html>
+
+
+
