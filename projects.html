@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+     body {
+       background: #1c1c1c;
+       font-family: 'Open Sans', sans-serif;
+       margin: 0;
+       padding: 0;
+     }
+
+
+     .Navbar {
+       width: 100%;
+       height: 80px;
+       background: linear-gradient(90deg, #111111, #1f1f1f);
+       display: flex;
+       align-items: center;
+       padding-left: 25px;
+       box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+       border-bottom: 2px solid #FFAB40;
+     }
+     .navbuttons{
+       margin-left: auto;
+     margin-right:50px;
+     }
+     .Navbar img {
+       border-radius: 50%;
+       width: 60px;
+       height: 60px;
+       margin-right: 15px;
+     }
+
+     .Navbar h1 {
+       color: #FFAB40;
+       font-size: 28px;
+       font-weight: 700;
+       letter-spacing: 2px;
+       font-family: 'Orbitron', 'Open Sans', sans-serif;
+       margin: 0;
+     }
+     .Navbar button {
+ background: linear-gradient(90deg, #222222, #111111);
+ color: #FFAB40;
+  padding: 10px 20px;
+ border: 1px solid #444;
+ border-radius: 25px;
+ font-weight: 600;
+ text-transform: uppercase;
+ font-size: 14px;
+ letter-spacing: 0.5px;
+ cursor: pointer;
+ transition: all 0.3s ease;
+ box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+ }
+.Navbar a{
+ text-decoration: none;
+ color: #FFAB40;
+}
+
+
+.Navbar button:hover {
+ background: linear-gradient(90deg, #333333, #222222);
+ border-color: #FFAB40;
+
+
+ transform: translateY(-1px);
+}
+
+
+     .newpost {
+       width: 500px;
+       min-height: 200px;
+       background-color: #333333;
+       margin: 20px auto;
+       border-radius: 36px;
+       padding: 20px;
+       overflow: auto;
+       transition: 0.3s ease;
+     }
+
+
+     .newpost:hover {
+       transform: translateY(-5px);
+       box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+     }
+
+
+     .postTitle {
+       color: #FFAB40;
+       font-size: 35px;
+       margin-bottom: 15px;
+     }
+
+
+     .postText{
+       color: #E0E0E0;
+       margin: 10px 0;
+       line-height: 1.6;
+     }
+
+
+     .codeBox {
+       overflow: auto;
+       width: 90%;
+       min-height: 80px;
+       padding: 15px;
+       margin: 20px auto 0 auto;
+       font-family: 'Cascadia Mono', monospace;
+       background-color: #0D0D0D;
+       color: #00FF00;
+
+       transition: 0.3s ease;
+     }
+
+
+
+
+
+     .code p {
+       margin: 0;
+       padding: 0;
+     }
+   </style>
+</head>
+<body>
+<div class="Navbar">
+     <img src="profilePic.png" alt="Profile Pic">
+     <h1>Robosword Codes</h1>
+     <div class="navbuttons">
+       <a href="projects.html" class="navbtn">posts</a>
+  <a href="/index.html" class="navbtn">projects</a>
+   </div>
+   </div>
+<div class="newpost">
+             <div class="postTitle">
+                 Ghost Royale
+             </div>
+            <div class="postText"> 
+                This is a project that I made. It was a simple video game in python pygame, and you move across a screen killing ghosts. It has a home screen and a shop that doesn't really work. There is also a boss at the end of the level, and lava and blocks that you phase through into the void.            </div>
+         </div>
+         <div class="newpost">
+             <div class="postTitle">
+                 Tutorium
+             </div>
+             <div class="postText">
+                 This was our first hackathon. We made an app that corrects your homework for you. It was pretty simple, and we used flask backend, openai ai, and html css frontend.
+             </div>
+         </div>
+         <div class="newpost">
+             <div class="postTitle">
+                 Resume Pro
+             </div>
+             <div class="postText">
+                 Resume pro is a thing made for a hackathon. Three functions are that you can upgrade a previous resume. You can also make a resume by giving some of your job details. After you upgrade or generate your resume, you can use ai to edit. We used flask backend, openai for ai.
+             </div>
+         </div>
+         <div class="newpost">
+             <div class="postTitle">
+                 Free Typing
+             </div>
+             <div class="postText">
+                 This is a typing clone that was made in python using the pygame library. It uses a bunch of random words from a list. Using pygame, the y is increased when it hits the boundry of the screen. It checks every second which keys are being typed, and then it makes a rectangle with the color if you typed it. It tracks wpm and accuracy. Then when you go to the end screen, you can hit the replay button and replay all the words which you got correct or wrong.
+             </div>
+         </div>
+</body>
+</html>
