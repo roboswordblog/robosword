@@ -7,7 +7,7 @@ Some of my favorite projects are:
 2. Agar.io Clone(This project is one of my best pygame projects, where I built a multiplayer Agar.io game where you can play, grow bigger, and eat other players who are on the same network as you.)
 3. Crosspost(This is an application where you can crosspost videos across multiple platforms, with watermark removing and previews about what it looks like before you publish it). It also has a good free tier and a flexible premium
 4. Doorbell(This project lets you scan San Jose for affordable houses using redfin data, and it shows you the adresses and lets you search for them using factors such as bedrooms, bathrooms, sqft, ect. I used leaflet, redfine dataa, ajax, and flask backend)
-5. Fetchbot(This project was really fun to make, and it is one of my best robotics projects. It uses both a raspberry pi and arduino, and it has a robot hand and wheels.)
+5. Still Deciding
 # Other things i do
 I also do alot of small python projects around pygame, and I have made some java utility projects, such as a csv file cleaner and a library app.
 # Game Dev
